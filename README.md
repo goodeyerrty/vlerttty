@@ -8,31 +8,10 @@
 
 ## 一键部署到Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/HXHGTS/vless-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/goodeyerrty/vlerttty/vless-heroku)
 
-## ENV 设定
 
-### UUID生成方法
 
-Windows下用cmd执行:
-
-`powershell [guid]::NewGuid() | find /v "Guid" | find /v "--" | find "-"`
-
-Linux下用bash执行:
-
-`uuidgen`
-
-在线生成UUID(推荐):
-
-<a href="http://tool.pfan.cn/guidgen/create?chkbrace=0&chkhyphen=1&chkupper=0&num=1" target="_blank">在线生成UUID</a>
-
-### CDN嵌套方法
-
-[CDN嵌套方法](https://hxhgts.github.io/xray-websocket-tls-nginx/cdn.html)
-
-## 注意
-
-部署时一定不要用默认的uuid，记得替换！！！
 
 WebSocket 路径为 `/`
 
